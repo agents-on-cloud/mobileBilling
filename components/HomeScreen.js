@@ -179,9 +179,10 @@ export default function HomeScreen({navigation}) {
                             style={{
                               fontWeight: 'bold',
                               borderRadius: 5,
+                              fontSize:20,
                               textAlign: 'center',
                             }}>
-                            {item.Type}
+                           Period: {item.Type}
                           </Text>
                           <Text
                             style={{
@@ -392,9 +393,7 @@ const style = StyleSheet.create({
     marginTop: 15,
     backgroundColor: '#fff',
     padding: 15,
-    borderBottomWidth: 2,
-    borderColor: '#eee',
-    width: '40%',
+    width: '100%',
     // marginHorizontal: 50,
     borderRadius: 5,
   },
